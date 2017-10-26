@@ -1,0 +1,129 @@
+@prefix : <http://www.ontologies.makolab.com/bc#> .
+@prefix bc: <http://www.ontologies.makolab.com/bc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.ontologies.makolab.com/bc> .
+
+<http://www.ontologies.makolab.com/bc> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.ontologies.makolab.com/bc/hasPreviousBlock
+bc:hasPreviousBlock rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain bc:Block ;
+                    rdfs:range bc:Block .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.ontologies.makolab.com/bc/hasDataGraphIRI
+bc:hasDataGraphIRI rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain bc:Block ;
+                   rdfs:range xsd:anyURI .
+
+
+###  http://www.ontologies.makolab.com/bc/hasDataHash
+bc:hasDataHash rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain bc:Block ;
+               rdfs:range xsd:string .
+
+
+###  http://www.ontologies.makolab.com/bc/hasHash
+bc:hasHash rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain bc:Block ;
+           rdfs:range xsd:string .
+
+
+###  http://www.ontologies.makolab.com/bc/hasIndex
+bc:hasIndex rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain bc:Block ;
+            rdfs:range xsd:decimal .
+
+
+###  http://www.ontologies.makolab.com/bc/hasPreviousHash
+bc:hasPreviousHash rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain bc:Block ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.ontologies.makolab.com/bc/hasTimeStamp
+bc:hasTimeStamp rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain bc:Block ;
+                rdfs:range xsd:decimal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.ontologies.makolab.com/bc/Block
+bc:Block rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasPreviousBlock ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass bc:Block
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasDataGraphIRI ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:anyURI
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasDataHash ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasHash ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasIndex ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:decimal
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasPreviousHash ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty bc:hasTimeStamp ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:decimal
+                         ] .
+
+
+###  http://www.ontologies.makolab.com/bc/GenesisBlock
+bc:GenesisBlock rdf:type owl:Class ;
+                rdfs:subClassOf bc:Block ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty bc:hasPreviousBlock ;
+                                  owl:allValuesFrom bc:GenesisBlock
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty bc:hasDataGraphIRI ;
+                                  owl:hasValue "http://www.ontologies.makolab.com/bc"^^xsd:anyURI
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty bc:hasIndex ;
+                                  owl:hasValue 0
+                                ] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

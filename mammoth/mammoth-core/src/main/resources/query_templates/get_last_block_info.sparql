@@ -1,0 +1,15 @@
+PREFIX bc: <http://www.ontologies.makolab.com/bc/>
+SELECT ?lastBlockIRI ?lastBlockHash ?lastBlockIndex
+WHERE
+{
+  GRAPH <%s>
+  {
+    ?lastBlockIRI a bc:Block ;
+                  bc:hasHash ?lastBlockHash ;
+                  bc:hasIndex ?lastBlockIndex .
+    FILTER NOT EXISTS {
+      ?prevBlockIRI bc:hasPreviousBlock ?lastBlockIRI .
+      FILTER ( ?prevBlockIRI != ?lastBlockIRI )
+    }
+  }
+}

@@ -1,0 +1,7 @@
+CONSTRUCT {  ?s ?p ?o }
+WHERE {
+GRAPH <%s>
+  {
+    ?s ?p ?o
+  } .
+}

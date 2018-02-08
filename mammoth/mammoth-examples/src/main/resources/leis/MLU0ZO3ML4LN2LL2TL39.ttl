@@ -1,0 +1,101 @@
+@base <graph://lei.info/MLU0ZO3ML4LN2LL2TL39>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39> <http://lei.info/gleio/hasInitialRegistrationDate> "2012-06-06T15:55:55.88Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20160406>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20140501>,
+                                                                                <http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20160406>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/213800D1EI4B9WTWWD28#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/213800D1EI4B9WTWWD28#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "MLU0ZO3ML4LN2LL2TL39"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#BLEIManifestation-20140501> <http://lei.info/gleio/hasBusinessIdentifierCode> "00617987"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2014-05-01T11:35:25.917Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BusinessLegalEntityIdentifier>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BusinessLegalEntityIdentifier>;
+                                                                  a <http://lei.info/gleio/BusinessLegalEntityIDManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#BusinessLegalEntityIdentifier> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BLEIManifestation-20140501>;
+                                                                     <http://lei.info/gleio/hasManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BLEIManifestation-20140501>;
+                                                                     <http://lei.info/gleio/identifies> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/COMPANIES-HOUSE>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/COMPANIES-HOUSE>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "00617987"^^xsd:string;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20140501> <http://lei.info/gleio/hasGLEICode> "MLU0ZO3ML4LN2LL2TL39"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2016-04-30T00:00:00Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2014-05-01T11:35:25.917Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20160406> <http://lei.info/gleio/hasGLEICode> "MLU0ZO3ML4LN2LL2TL39"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-04-30T00:00:00Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#GLEIManifestation-20140501>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-04-06T10:46:44.49Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "PUBLIC LIMITED COMPANY"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/GB>;
+                                                                         <http://lei.info/gleio/hasLegalName> "HSBC HOLDINGS PLC"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2014-05-01T11:35:25.917Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/MLU0ZO3ML4LN2LL2TL39>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "HSBC HOLDINGS PLC"^^xsd:string.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "LONDON"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/GB>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "E14 5HQ"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "8 CANADA SQUARE"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "8 CANADA SQUARE"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "LONDON"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/GB>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "E14 5HQ"^^xsd:string;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "LONDON"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/GB>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "E14 5HQ"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> "8 CANADA SQUARE"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "8 CANADA SQUARE"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "LONDON"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/GB>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "E14 5HQ"^^xsd:string;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/MLU0ZO3ML4LN2LL2TL39#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "PUBLIC LIMITED COMPANY"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/MLU0ZO3ML4LN2LL2TL39>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#LegalEntityManifestation-20140501-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/MLU0ZO3ML4LN2LL2TL39#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "HSBC HOLDINGS PLC"^^xsd:string;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "HSBC HOLDINGS PLC"^^xsd:string.

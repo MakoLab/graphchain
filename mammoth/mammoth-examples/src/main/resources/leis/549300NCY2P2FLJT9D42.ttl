@@ -1,0 +1,127 @@
+@base <graph://lei.info/549300NCY2P2FLJT9D42>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/549300NCY2P2FLJT9D42> <http://lei.info/gleio/hasInitialRegistrationDate> "2013-03-11T17:58:10.867Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20161124>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20160114>,
+                                                                                <http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20161124>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "549300NCY2P2FLJT9D42"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/549300NCY2P2FLJT9D42#BusinessLegalEntityIdentifier> <http://lei.info/gleio/identifies> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20160114> <http://lei.info/gleio/hasGLEICode> "549300NCY2P2FLJT9D42"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-01-04T22:04:56.564Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-01-14T02:30:03.556Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20161124> <http://lei.info/gleio/hasGLEICode> "549300NCY2P2FLJT9D42"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-11-20T03:54:24.797Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/549300NCY2P2FLJT9D42#GLEIManifestation-20160114>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-11-24T01:56:11.607Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "ExxonMobil Oil Corporation"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-01-14T02:30:03.556Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ExxonMobil Oil Corporation"^^xsd:string.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "Irving"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "75039"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "5959 Las Colinas Boulevard"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-TX>;
+                                                                                              a <http://lei.info/gleio/Address>.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Albany"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "12207-2543"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Prentice-Hall Corporation System
+80 State Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                       a <http://lei.info/gleio/Address>.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "ExxonMobil Oil Corporation"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-11-24T01:56:11.607Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/549300NCY2P2FLJT9D42#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ExxonMobil Oil Corporation"^^xsd:string.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "Irving"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "75039-4202"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "5959 Las Colinas Boulevard"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-TX>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "5959 Las Colinas Boulevard"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Irving"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "75039-4202"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-TX>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Albany"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "12207-2543"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Prentice-Hall Corporation System
+80 State Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """C/O The Prentice-Hall Corporation System
+80 State Street"""^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Albany"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "12207-2543"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/549300NCY2P2FLJT9D42#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20160114>,
+                                                                                       <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/549300NCY2P2FLJT9D42#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/549300NCY2P2FLJT9D42>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/549300NCY2P2FLJT9D42#LegalEntityManifestation-20161124-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasLegalName> "ExxonMobil Oil Corporation"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/549300NCY2P2FLJT9D42#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "ExxonMobil Oil Corporation"^^xsd:string;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "ExxonMobil Oil Corporation"^^xsd:string.

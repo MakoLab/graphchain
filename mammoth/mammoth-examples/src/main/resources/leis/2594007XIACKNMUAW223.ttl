@@ -1,0 +1,139 @@
+@base <graph://lei.info/2594007XIACKNMUAW223>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/2594007XIACKNMUAW223> <http://lei.info/gleio/hasInitialRegistrationDate> "2015-01-21T23:00:00Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160113>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160112>,
+                                                                                <http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160113>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/259400L3KBYEVNHEJF55#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/259400L3KBYEVNHEJF55#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "2594007XIACKNMUAW223"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/2594007XIACKNMUAW223#BLEIManifestation-20160112> <http://lei.info/gleio/hasBusinessIdentifierCode> "0000289179"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-01-12T23:00:00Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/2594007XIACKNMUAW223#BusinessLegalEntityIdentifier>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/2594007XIACKNMUAW223#BusinessLegalEntityIdentifier>;
+                                                                  a <http://lei.info/gleio/BusinessLegalEntityIDManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/2594007XIACKNMUAW223#BusinessLegalEntityIdentifier> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/2594007XIACKNMUAW223#BLEIManifestation-20160112>;
+                                                                     <http://lei.info/gleio/hasManifestation> <http://lei.info/2594007XIACKNMUAW223#BLEIManifestation-20160112>;
+                                                                     <http://lei.info/gleio/identifies> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/PL_1>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/PL_1>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "0000289179"^^xsd:string;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160112> <http://lei.info/gleio/hasGLEICode> "2594007XIACKNMUAW223"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-01-22T00:00:00+01:00"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-01-12T23:00:00Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/2594007XIACKNMUAW223>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160113> <http://lei.info/gleio/hasGLEICode> "2594007XIACKNMUAW223"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-01-22T18:20:37+01:00"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/2594007XIACKNMUAW223#GLEIManifestation-20160112>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-01-13T18:25:34Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/2594007XIACKNMUAW223>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/2594007XIACKNMUAW223>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "Spółka Akcyjna"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                         <http://lei.info/gleio/hasLegalName> "MAKOLAB SPÓŁKA AKCYJNA"^^xsd:string,
+                                                                                                              "MAKOLAB SPÓŁKA AKCYJNA"@pl;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112>;
+                                                                         <http://lei.info/gleio/hasPreferredTransliteratedLegalName> "MAKOLAB SPOLKA AKCYJNA"@pl;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-01-12T23:00:00Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/2594007XIACKNMUAW223>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "MAKOLAB SPÓŁKA AKCYJNA"@pl.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "93-430"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "93-430"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "93-430"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "93-430"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "Spółka Akcyjna"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                         <http://lei.info/gleio/hasLegalName> "MAKOLAB SPÓŁKA AKCYJNA"^^xsd:string,
+                                                                                                              "MAKOLAB SPÓŁKA AKCYJNA"@pl;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112>;
+                                                                         <http://lei.info/gleio/hasPreferredTransliteratedLegalName> "MAKOLAB SPOLKA AKCYJNA"@pl;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-01-13T18:25:34Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/2594007XIACKNMUAW223>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/2594007XIACKNMUAW223#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "MAKOLAB SPÓŁKA AKCYJNA"@pl.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "93-430"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "ŁÓDŹ"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/PL>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "93-430"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> "ŁÓDŹ DEMOKRATYCZNA 46"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/PL-LD>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/2594007XIACKNMUAW223#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112>,
+                                                                                       <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160113>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/2594007XIACKNMUAW223#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "Spółka Akcyjna"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/2594007XIACKNMUAW223>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/2594007XIACKNMUAW223#LegalEntityManifestation-20160112-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/2594007XIACKNMUAW223#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "MAKOLAB SPÓŁKA AKCYJNA"^^xsd:string,
+                                                                                                                     "MAKOLAB SPÓŁKA AKCYJNA"@pl;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "MAKOLAB SPÓŁKA AKCYJNA"@pl.

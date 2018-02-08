@@ -1,0 +1,112 @@
+@base <graph://lei.info/F5WCUMTUM4RKZ1MAIE39>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39> <http://lei.info/gleio/hasInitialRegistrationDate> "2012-06-05T22:00:00Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20160721>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20150831>,
+                                                                                <http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20160721>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/969500Q2MA9VBQ8BG884#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/969500Q2MA9VBQ8BG884#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "F5WCUMTUM4RKZ1MAIE39"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#BLEIManifestation-20150831> <http://lei.info/gleio/hasBusinessIdentifierCode> "572093920"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2015-08-31T18:00:50Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BusinessLegalEntityIdentifier>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BusinessLegalEntityIdentifier>;
+                                                                  a <http://lei.info/gleio/BusinessLegalEntityIDManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#BusinessLegalEntityIdentifier> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BLEIManifestation-20150831>;
+                                                                     <http://lei.info/gleio/hasManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BLEIManifestation-20150831>;
+                                                                     <http://lei.info/gleio/identifies> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/FR001>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/FR001>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "572093920"^^xsd:string;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20150831> <http://lei.info/gleio/hasGLEICode> "F5WCUMTUM4RKZ1MAIE39"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2016-08-31T10:18:34+02:00"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2015-08-31T18:00:50Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20160721> <http://lei.info/gleio/hasGLEICode> "F5WCUMTUM4RKZ1MAIE39"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-08-31T10:18:34+02:00"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#GLEIManifestation-20150831>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-07-21T18:00:51Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasAutoTransliteratedLegalName> "AXA"@fr;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "Société anonyme à conseil d'administration"@fr;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/FR>;
+                                                                         <http://lei.info/gleio/hasLegalName> "AXA"@fr,
+                                                                                                              "AXA"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2015-08-31T18:00:50Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/F5WCUMTUM4RKZ1MAIE39>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "AXA"@fr.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "PARIS 8"@fr;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/FR>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "75008"@fr;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> """DIRECTION JURIDIQUE CENTRALE
+25 AV MATIGNON
+75008 PARIS 8"""@fr;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """DIRECTION JURIDIQUE CENTRALE
+25 AV MATIGNON
+75008 PARIS 8"""@fr;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "PARIS 8"@fr;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/FR>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "75008"@fr;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "PARIS 8"@fr;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/FR>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "75008"@fr;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """DIRECTION JURIDIQUE CENTRALE
+25 AV MATIGNON
+75008 PARIS 8"""@fr;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """DIRECTION JURIDIQUE CENTRALE
+25 AV MATIGNON
+75008 PARIS 8"""@fr;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "PARIS 8"@fr;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/FR>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "75008"@fr;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/F5WCUMTUM4RKZ1MAIE39#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "Société anonyme à conseil d'administration"@fr;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/F5WCUMTUM4RKZ1MAIE39>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#LegalEntityManifestation-20150831-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/F5WCUMTUM4RKZ1MAIE39#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "AXA"^^xsd:string,
+                                                                                                                     "AXA"@fr;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "AXA"@fr.

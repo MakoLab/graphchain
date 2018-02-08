@@ -19,7 +19,6 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 
-        <genson.version>1.4</genson.version>
         <jetty.version>9.4.6.v20170531</jetty.version>
     </properties>
 
@@ -27,26 +26,23 @@
         <dependency>
             <groupId>com.makolab.rnd</groupId>
             <artifactId>mammoth-core</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.makolab.rnd</groupId>
+            <artifactId>mammoth-validator</artifactId>
+            <version>${project.version}</version>
         </dependency>
         
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.owlike</groupId>
-            <artifactId>genson</artifactId>
-            <version>${genson.version}</version>
-        </dependency>
-        
         <dependency>
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
             <version>1</version>
         </dependency>
-        
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
@@ -62,7 +58,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.6</version>
                 <executions>
                     <execution>
                         <phase>validate</phase>

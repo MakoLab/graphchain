@@ -1,0 +1,25 @@
+{
+  "type":1,
+  "data":[
+    {
+      "dataGraphIri":"http://example.com/graphIri",
+      "dataHash":"xyz",
+      "hash":"abc",
+      "index":"1",
+      "previousBlock":"http://www.ontologies.makolab.com/bc/GraphChainJava/0",
+      "previousHash":"ppp",
+      "timestamp":"123456"
+    },
+    {
+      "dataGraphIri":"http://example.com/graphIri",
+      "dataHash":"xyz",
+      "hash":"abc",
+      "index":"2",
+      "previousBlock":"http://www.ontologies.makolab.com/bc/GraphChainJava/1",
+      "previousHash":"ppp",
+      "timestamp":"123456"
+    }
+  ],
+  "graph":{
+  }
+}

@@ -1,8 +1,8 @@
 package com.makolab.rnd.mammoth.validator.service;
 
-import com.makolab.rnd.mammoth.model.chain.Block;
-import com.makolab.rnd.mammoth.model.chain.BlockHeader;
-import com.makolab.rnd.mammoth.service.cryptography.Sha256HashCalculator;
+import com.makolab.rnd.mammoth.core.model.chain.Block;
+import com.makolab.rnd.mammoth.core.model.chain.BlockHeader;
+import com.makolab.rnd.mammoth.core.service.cryptography.Sha256HashCalculator;
 import com.makolab.rnd.mammoth.validator.model.BlockValidationResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
 package com.makolab.rnd.mammoth.validator.model;
 
-import com.makolab.rnd.mammoth.model.chain.BlockHeader;
+import com.makolab.rnd.mammoth.core.model.chain.BlockHeader;
 
 /**
  *

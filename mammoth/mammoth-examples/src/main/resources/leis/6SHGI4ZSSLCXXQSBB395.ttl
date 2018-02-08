@@ -1,0 +1,248 @@
+@base <graph://lei.info/6SHGI4ZSSLCXXQSBB395>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/6SHGI4ZSSLCXXQSBB395> <http://lei.info/gleio/hasInitialRegistrationDate> "2012-06-06T15:53:25.893Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20170712>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20151009>,
+                                                                                <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20160720>,
+                                                                                <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20170712>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "6SHGI4ZSSLCXXQSBB395"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#BusinessLegalEntityIdentifier> <http://lei.info/gleio/identifies> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20151009> <http://lei.info/gleio/hasGLEICode> "6SHGI4ZSSLCXXQSBB395"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2016-07-16T18:00:53.507Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2015-10-09T02:02:41.504Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20160720> <http://lei.info/gleio/hasGLEICode> "6SHGI4ZSSLCXXQSBB395"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-07-18T18:48:06.511Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20151009>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-07-20T01:50:24.045Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20170712> <http://lei.info/gleio/hasGLEICode> "6SHGI4ZSSLCXXQSBB395"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2018-07-05T19:23:52.081Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#GLEIManifestation-20160720>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2017-07-12T01:49:15.637Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2015-10-09T02:02:41.504Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Wilmington"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "19801"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-07-20T01:50:24.045Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-08-18T15:41:13.905Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                              a <http://lei.info/gleio/Address>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2017-02-28T02:00:55.255Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "New York"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "10022"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "399 Park Avenue"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                              a <http://lei.info/gleio/Address>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2017-07-12T01:49:15.637Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/6SHGI4ZSSLCXXQSBB395#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "New York"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "10022"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "399 Park Avenue"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "399 Park Avenue"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "New York"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "10022"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-NY>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """C/O The Corporation Trust Company
+Corporation Trust Center
+1209 Orange Street"""^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "19801"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/6SHGI4ZSSLCXXQSBB395#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20151009>,
+                                                                                       <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160720>,
+                                                                                       <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20160818>,
+                                                                                       <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170228>,
+                                                                                       <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/6SHGI4ZSSLCXXQSBB395#LegalEntityManifestation-20170712-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/6SHGI4ZSSLCXXQSBB395#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalFormAbbreviation> "INCORPORATED"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "Citigroup Inc."^^xsd:string;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Citigroup Inc."^^xsd:string.

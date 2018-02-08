@@ -1,0 +1,130 @@
+@base <graph://lei.info/PBLD0EJDB5FWOLXP3B76>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://lei.info/PBLD0EJDB5FWOLXP3B76> <http://lei.info/gleio/hasInitialRegistrationDate> "2012-06-06T15:52:38.397Z"^^xsd:dateTime;
+                                       <http://lei.info/gleio/hasLastManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20161213>;
+                                       <http://lei.info/gleio/hasManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20151230>,
+                                                                                <http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20161213>;
+                                       <http://lei.info/gleio/identifies> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213>;
+                                       <http://lei.info/gleio/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/EVK05KS7XY1DEII3R011#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                       <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasUniqueIdentifier> "PBLD0EJDB5FWOLXP3B76"^^xsd:string;
+                                       a <http://lei.info/gleio/GlobalLegalEntityIdentifier>,
+                                         <http://lei.info/gleio/LegalEntityIdentifier>,
+                                         <http://lei.info/gleio/VariableEntity>,
+                                         <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalEntityIdentifier>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#BusinessLegalEntityIdentifier> <http://lei.info/gleio/identifies> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                                                     <http://lei.info/gleio/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy> <http://lei.info/gleio/business-registries/undefined>;
+                                                                     <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/identifies> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                                                     a <http://lei.info/gleio/BusinessLegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/LegalEntityIdentifier>,
+                                                                       <http://lei.info/gleio/VariableEntity>,
+                                                                       <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/RegistrationIdentifier>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20151230> <http://lei.info/gleio/hasGLEICode> "PBLD0EJDB5FWOLXP3B76"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2016-12-27T15:52:56.215Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2015-12-30T02:19:56.298Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20161213> <http://lei.info/gleio/hasGLEICode> "PBLD0EJDB5FWOLXP3B76"^^xsd:string;
+                                                                  <http://lei.info/gleio/hasGLEIRegistrationStatus> <http://lei.info/gleio/Issued>;
+                                                                  <http://lei.info/gleio/hasNextRenewalDate> "2017-12-06T19:48:10.985Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#GLEIManifestation-20151230>;
+                                                                  <http://lei.info/gleio/hasUpdateDate> "2016-12-13T02:14:57.414Z"^^xsd:dateTime;
+                                                                  <http://lei.info/gleio/hasValidationSource> <http://lei.info/gleio/FullyCorroborated>;
+                                                                  <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                                                  <http://lei.info/gleio/isManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                                                  a <http://lei.info/gleio/GLEIManifestation>,
+                                                                    <http://lei.info/gleio/VariableEntityManifestation>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "OTHER"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Wells Fargo & Company"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2015-12-30T02:19:56.298Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Wells Fargo & Company"^^xsd:string.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "San Francisco"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "94104"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "420 Montgomery Street"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-CA>;
+                                                                                              a <http://lei.info/gleio/Address>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19808"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O Corporation Service Company
+2711 Centerville Road
+Suite 400"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213> <http://lei.info/gleio/hasAddressOfLegalFormation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-LEGAL_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasHeadquartersAddress> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-HEADQUARTERS_ADDRESS>;
+                                                                         <http://lei.info/gleio/hasLegalEntityStatus> <http://lei.info/gleio/Active>;
+                                                                         <http://lei.info/gleio/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasLegalJurisdiction> <http://lei.info/gleio/countries/US>;
+                                                                         <http://lei.info/gleio/hasLegalName> "Wells Fargo & Company"^^xsd:string;
+                                                                         <http://lei.info/gleio/hasPredecessorEntityManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230>;
+                                                                         <http://lei.info/gleio/hasUpdateDate> "2016-12-13T02:14:57.414Z"^^xsd:dateTime;
+                                                                         <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                                                         <http://lei.info/gleio/isLastManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                                                         <http://lei.info/gleio/isManifestationOf> <http://lei.info/PBLD0EJDB5FWOLXP3B76#entity>;
+                                                                         a <http://lei.info/gleio/LegalEntityManifestation>,
+                                                                           <http://lei.info/gleio/VariableEntityManifestation>;
+                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Wells Fargo & Company"^^xsd:string.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-HEADQUARTERS_ADDRESS> <http://lei.info/gleio/hasCity> "San Francisco"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://lei.info/gleio/hasPostalCode> "94104"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasStreetAddress> "420 Montgomery Street"^^xsd:string;
+                                                                                              <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-CA>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> "420 Montgomery Street"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "San Francisco"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "94104"^^xsd:string;
+                                                                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-CA>;
+                                                                                              a <http://lei.info/gleio/Address>,
+                                                                                                <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-LEGAL_ADDRESS> <http://lei.info/gleio/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://lei.info/gleio/hasPostalCode> "19808"^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasStreetAddress> """C/O Corporation Service Company
+2711 Centerville Road
+Suite 400"""^^xsd:string;
+                                                                                       <http://lei.info/gleio/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasAddressLine1> """C/O Corporation Service Company
+2711 Centerville Road
+Suite 400"""^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCity> "Wilmington"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasCountry> <http://lei.info/gleio/countries/US>;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasPostalCode> "19808"^^xsd:string;
+                                                                                       <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/hasSubdivision> <http://lei.info/gleio/subdivisions/US-DE>;
+                                                                                       a <http://lei.info/gleio/Address>,
+                                                                                         <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/BusinessRegistries/RegistrationAddress>.
+<http://lei.info/PBLD0EJDB5FWOLXP3B76#entity> <http://lei.info/gleio/hasLastManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230>;
+                                              <http://lei.info/gleio/hasManifestation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20151230>,
+                                                                                       <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213>;
+                                              <http://lei.info/gleio/isIdentifiedBy> <http://lei.info/PBLD0EJDB5FWOLXP3B76#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/BE/Corporations/Corporations/hasLegalFormAbbreviation> "OTHER"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/hasHeadquartersAddress> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-HEADQUARTERS_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FBC/FunctionalEntities/RegistrationAuthorities/isIdentifiedBy> <http://lei.info/PBLD0EJDB5FWOLXP3B76>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasAddressOfLegalFormation> <http://lei.info/PBLD0EJDB5FWOLXP3B76#LegalEntityManifestation-20161213-LEGAL_ADDRESS>;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/hasLegalName> "Wells Fargo & Company"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/AgentsAndPeople/Agents/isIdentifiedBy> <http://lei.info/PBLD0EJDB5FWOLXP3B76#BusinessLegalEntityIdentifier>;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalFormAbbreviation> "CORPORATION"^^xsd:string;
+                                              <http://spec.edmcouncil.org/fibo/FND/Relations/Relations/hasLegalName> "Wells Fargo & Company"^^xsd:string;
+                                              a <http://lei.info/gleio/LegalEntity>,
+                                                <http://lei.info/gleio/VariableEntity>,
+                                                <http://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/LegalEntity>;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Wells Fargo & Company"^^xsd:string.

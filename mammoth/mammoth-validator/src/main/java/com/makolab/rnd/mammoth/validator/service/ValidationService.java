@@ -1,12 +1,12 @@
 package com.makolab.rnd.mammoth.validator.service;
 
-import com.makolab.rnd.mammoth.exception.CalculatingHashException;
-import com.makolab.rnd.mammoth.exception.ReadingBlockException;
-import com.makolab.rnd.mammoth.model.chain.Block;
-import com.makolab.rnd.mammoth.model.chain.LastBlockInfo;
-import com.makolab.rnd.mammoth.model.rdf.Triple;
-import com.makolab.rnd.mammoth.persistence.RepositoryManager;
-import com.makolab.rnd.mammoth.service.hashing.HashingService;
+import com.makolab.rnd.mammoth.core.exception.CalculatingHashException;
+import com.makolab.rnd.mammoth.core.exception.ReadingBlockException;
+import com.makolab.rnd.mammoth.core.model.chain.Block;
+import com.makolab.rnd.mammoth.core.model.chain.LastBlockInfo;
+import com.makolab.rnd.mammoth.core.model.rdf.Triple;
+import com.makolab.rnd.mammoth.core.persistence.RepositoryManager;
+import com.makolab.rnd.mammoth.core.service.hashing.HashingService;
 import com.makolab.rnd.mammoth.validator.model.BlockValidationResult;
 import com.makolab.rnd.mammoth.validator.model.GraphChainValidationResult;
 import org.slf4j.Logger;
@@ -32,7 +32,7 @@ public class ValidationService {
   private BlockHashValidator blockHashValidator;
 
   public GraphChainValidationResult validateGraphChain() {
-    boolean isValid = false;
+    boolean isValid = true;
 
     List<BlockValidationResult> blocks = new ArrayList<>();
 
@@ -56,6 +56,7 @@ public class ValidationService {
         } else {
           LOGGER.debug("Block '{}' is not valid. Details: {}", currentBlock.getBlockIri(), blockValidationResult);
           getPreviousBlock = false;
+          isValid = false;
         }
         blocks.add(blockValidationResult);
 
@@ -64,11 +65,10 @@ public class ValidationService {
         if (isGenesisBlock(currentBlock)) {
           // for the first block IRI and its previous block IRI are the same,
           // so we do not go further
-          LOGGER.debug("Block '{}' has '{}' as the previous block; they are equal.",
+          LOGGER.debug("Block '{}' has '{}' as the previous block. They are equal which means this is a genesis block.",
               blockIriToObtain,
               currentBlock.getBlockIri());
           getPreviousBlock = false;
-          isValid = true;
         }
       }
     } catch (ReadingBlockException | CalculatingHashException ex) {

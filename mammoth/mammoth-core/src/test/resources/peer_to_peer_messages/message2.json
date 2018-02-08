@@ -1,0 +1,9 @@
+{
+  "type":1,
+  "data":[
+  ],
+  "graph":{
+    "http://example.com/graphIri1":"base64Content",
+    "http://example.com/graphIri2":"base64Content"
+  }
+}

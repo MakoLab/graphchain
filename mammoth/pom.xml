@@ -20,14 +20,17 @@
         
         <rdf4j.version>2.2.2</rdf4j.version>
         <jsonld.version>0.8.3</jsonld.version>
+        <genson.version>1.4</genson.version>
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <modules>
         <module>mammoth-core</module>
         <module>mammoth-web</module>
         <module>mammoth-validator</module>
+        <module>mammoth-benchmark</module>
     </modules>
     
     <dependencyManagement>
@@ -72,4 +75,15 @@
             <version>1</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.2</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
+l

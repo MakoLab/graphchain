@@ -14,9 +14,14 @@
         </encoder>
     </appender>
 
-    <logger name="com.makolab" level="DEBUG" />
-    <logger name="com.makolab.rnd.mammoth.persistence.repository.Rdf4jRepository" level="TRACE" />
-    <logger name="com.makolab.rnd.mammoth.persistence.RepositoryManager" level="TRACE" />
+    <logger name="com.makolab.rnd.mammoth" level="DEBUG" />
+    <logger name="com.makolab.rnd.mammoth.web" level="DEBUG" />
+    <logger name="com.makolab.rnd.mammoth.core.persistence.repository" level="INFO" />
+    <!--
+    <logger name="com.makolab.rnd.mammoth.web.controller.NodeController" level="TRACE" />
+    <logger name="Rdf4jTripleStoreRepository" level="TRACE" />
+    <logger name="RepositoryManager" level="TRACE" />
+    -->
     <logger name="org.eclipse.rdf4j.repository" level="DEBUG" />
 
     <root level="INFO">

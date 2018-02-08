@@ -13,7 +13,7 @@
     <artifactId>mammoth-validator</artifactId>
     <packaging>jar</packaging>
 
-    <name>Mammoth Benchmark</name>
+    <name>Mammoth Validator</name>
 
     <dependencies>
         <dependency>

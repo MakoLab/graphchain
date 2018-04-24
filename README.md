@@ -8,6 +8,7 @@
 ## Alternative Implementation
 
 - [GraphChain in JavaScript](https://github.com/MakoLab/graphchain-js)
+- [GraphChain in C#](https://github.com/MakoLab/graphchain-csharp)
 
 
 ## Acknowledgement
